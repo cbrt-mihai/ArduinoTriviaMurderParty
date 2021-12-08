@@ -3,7 +3,7 @@
 
 ## Description
 
-  <p> Desc </p>
+  <p> Trivia Murder Party is a minigame where you need to answer as many questions right, if you want to survive as long as possible. </p>
 
 ![proj1_setup](https://github.com/cbrt-mihai/ArduinoTriviaMurderParty/blob/main/setup.jpg?raw=true)
 
