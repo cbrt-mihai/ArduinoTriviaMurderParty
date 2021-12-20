@@ -9,6 +9,10 @@
 ## Description
 
   <p> Trivia Murder Party is a minigame where you need to answer as many questions right, if you want to survive as long as possible. The game has two disting difficulties: easy and hard, for both the casual and the knowledgeable. Game topics range from anime and games, to geography and music, so that anyone can enjoy the game. </p>
+  
+## How to play
+
+  <p> Before you start a new game, you should select a difficulty and change your name. To change the difficulty, scroll down until you find the "Difficulty" tab and then using your joystick, swipe left or right to select your desired difficulty. To change your name, scroll down until you find the "Change name" tab and then select swipe left to select Yes. You will then see AAAAA as your default name; to change it go to the letter you want to change, click the joystick and then use the up/down motion to select the desired letter. Click again to disengage the letter. When you are done, scroll right to "BACK" and click on it to go to the main menu.  </p>
 
 ![proj1_setup](https://github.com/cbrt-mihai/ArduinoTriviaMurderParty/blob/main/setup/setup.jpg?raw=true)
 
