@@ -17,7 +17,7 @@
   
 ## Used Components
 
-  <p> An arduino Mega 2560, a MAX driver for the matrix, a 16x2 LCD, an 8x8 LED Matrix, a buzzer, a joystick, an SD card module, a 2GB SD card, a "condensator", a ceramic "condensator" and 2 resistors. </p>
+  <p> An arduino Mega 2560, a MAX driver for the matrix, a 16x2 LCD, an 8x8 LED Matrix, a buzzer, a joystick, an SD card module, a 2GB SD card, a cylindrical capacitor, a ceramic capacitor and 2 resistors. </p>
 
 ![proj1_setup](https://github.com/cbrt-mihai/ArduinoTriviaMurderParty/blob/main/setup/setup.jpg?raw=true)
 
