@@ -12,7 +12,12 @@
   
 ## How to play
 
-  <p> Before you start a new game, you should select a difficulty and change your name. To change the difficulty, scroll down until you find the "Difficulty" tab and then using your joystick, swipe left or right to select your desired difficulty. To change your name, scroll down until you find the "Change name" tab and then select swipe left to select Yes. You will then see AAAAA as your default name; to change it go to the letter you want to change, click the joystick and then use the up/down motion to select the desired letter. Click again to disengage the letter. When you are done, scroll right to "BACK" and click on it to go to the main menu.  </p>
+  <p> Before you start a new game, you should select a difficulty and change your name. To change the difficulty, scroll down until you find the "Difficulty" tab and then using your joystick, swipe left or right to select your desired difficulty. To change your name, scroll down until you find the "Change name" tab and then select swipe left to select Yes. You will then see AAAAA as your default name; to change it go to the letter you want to change, click the joystick and then use the up/down motion to select the desired letter. Click again to disengage the letter. When you are done, scroll right to "BACK" and click on it to go to the main menu. </p>
+  <p> If you scroll all the way down, you'll find additional settings such as: Contrast, Led Brightness etc. Do the same things you did with the Difficulty and Name tabs to select your desired settings. </p>
+  
+## Used Components
+
+  <p> An arduino Mega 2560, a MAX driver for the matrix, a 16x2 LCD, an 8x8 LED Matrix, a buzzer, a joystick, an SD card module, a 2GB SD card, a "condensator", a ceramic "condensator" and 2 resistors. </p>
 
 ![proj1_setup](https://github.com/cbrt-mihai/ArduinoTriviaMurderParty/blob/main/setup/setup.jpg?raw=true)
 
