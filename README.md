@@ -8,8 +8,10 @@
 
 ## Description
 
-  <p> Trivia Murder Party is a minigame where you need to answer as many questions right, if you want to survive as long as possible. The game has two disting difficulties: easy and hard, for both the casual and the knowledgeable. </p>
+  <p> Trivia Murder Party is a minigame where you need to answer as many questions right, if you want to survive as long as possible. The game has two disting difficulties: easy and hard, for both the casual and the knowledgeable. Game topics range from anime and games, to geography and music, so that anyone can enjoy the game. </p>
 
 ![proj1_setup](https://github.com/cbrt-mihai/ArduinoTriviaMurderParty/blob/main/setup/setup.jpg?raw=true)
 
-<p> Link to a video showcasing the functionality: https://youtu.be/HKcd7Fs3Z5M </p>
+<p> Link to a video showcasing the gameplay: https://youtu.be/dqw4e5JM85o </p>
+<p> Link to 2 videos showcasing the menu: https://youtu.be/QPXtAkIn-W4 and https://youtu.be/houLG56wmqE </p>
+<p> Link to a video showcasing the name changing feature: https://youtu.be/ufS9Q_PB2NE </p>
