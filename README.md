@@ -16,6 +16,13 @@
     <li> printHighscores() prints in the Serial monitor the top 3 scores from EEPROM. </li>
     <li> scrollAbout() is used to scroll the text when needed. </li>
     <li> menuDing(), correctAns() and incorrectAns() each play a different tone when called. </li>
+    <li> checkAnswer() checks if the answer is correct or not. </li> 
+    <li> beatedAnyHighscores() checks if the user beat any other highscore. </li>
+    <li> showHighscore() prints the highscores on the LCD. </li>
+    <li> showName() shows the name of the player, and showBack() prints "BACK" on the LCD. </li>
+    <li> displayImage() shows an icon on the matrix. </li>
+    <li> getScore() and getName() return the relevant information, respectively. </li>
+    <li> putHighscore() overwrites the first lower score it finds with the current one, also overwriting the player name. </li>
   </ul>
 
 ## Backstory
