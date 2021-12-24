@@ -1,6 +1,31 @@
 # Trivia Murder Party, an Arduino trivia minigame
 <p align="right" >  <i> author: Burța Mihai-Cătălin </i> </p>
 
+## Architecture
+
+  <p> The code is split up in many functions, depending on the functionality. The main function is the one in loop(), that is the main engine of the code. It's made up of several states that change depending on what was selected on the LCD. Now I will explain the functions: </p>
+  <ul>
+    <li> menuItems() and questionItems() hold the menu/question tabs. </li>
+    <li> writePlayer() and readPlayer() communicate with the EEPROM.</li>
+    <li> topics() returns the topic at a certain index. </li>
+    <li> newrandom() generates a random number in a given interval. </li>
+    <li> generateQuestionIndex() generates a random index. </li>
+    <li> generateQuestionData() generates a topicIndex and a questionIndex. </li>
+    <li> getQuestion(), getSolution(), getAnswer{1/2/3/4}() return the question/solution/answer respectively. </li>
+    <li> menuFunctions() and questionFunctions() are in charge of displaying on the LCD the menu or information regarding the curent question, and in charge of reacting to user input in those two cases. </li>
+    <li> printHighscores() prints in the Serial monitor the top 3 scores from EEPROM. </li>
+    <li> scrollAbout() is used to scroll the text when needed. </li>
+    <li> menuDing(), correctAns() and incorrectAns() each play a different tone when called. </li>
+    <li> checkAnswer() checks if the answer is correct or not. </li> 
+    <li> beatedAnyHighscores() checks if the user beat any other highscore. </li>
+    <li> showHighscore() prints the highscores on the LCD. </li>
+    <li> showName() shows the name of the player, and showBack() prints "BACK" on the LCD. </li>
+    <li> displayImage() shows an icon on the matrix. </li>
+    <li> getScore() and getName() return the relevant information, respectively. </li>
+    <li> putHighscore() overwrites the first lower score it finds with the current one, also overwriting the player name. </li>
+    <li> resetHighscore() resets all the highscores by overwriting them with name None and score 0. </li>
+  </ul>
+
 ## Backstory
 
   <p> Since the beginning of the project, when we were tasked to think about a game to build, I knew I had to create a different type of game than my colleagues, not to flex or anything, but to stand out. </p>
