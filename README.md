@@ -1,6 +1,10 @@
 # Trivia Murder Party, an Arduino trivia minigame
 <p align="right" >  <i> author: Burța Mihai-Cătălin </i> </p>
 
+## Architecture
+
+  <p> The code is split up in many functions, depending on the functionality. The main function is the one in loop(), that is the main engine of the code. It's made up of several states that change depending on what was selected on the LCD. The functions: writePlayer() and readPlayer() communicate with the EEPROM. </p>
+
 ## Backstory
 
   <p> Since the beginning of the project, when we were tasked to think about a game to build, I knew I had to create a different type of game than my colleagues, not to flex or anything, but to stand out. </p>
