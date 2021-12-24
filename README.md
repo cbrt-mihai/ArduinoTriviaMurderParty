@@ -5,7 +5,13 @@
 
   <p> The code is split up in many functions, depending on the functionality. The main function is the one in loop(), that is the main engine of the code. It's made up of several states that change depending on what was selected on the LCD. Now I will explain the functions: </p>
   <ul>
+    <li> menuItems() and questionItems() hold the menu/question tabs. </li>
     <li> writePlayer() and readPlayer() communicate with the EEPROM.</li>
+    <li> topics() returns the topic at a certain index. </li>
+    <li> newrandom() generates a random number in a given interval. </li>
+    <li> generateQuestionIndex() generates a random index. </li>
+    <li> generateQuestionData() generates a topicIndex and a questionIndex. </li>
+    <li> getQuestion(), getSolution(), getAnswer{1/2/3/4}() return the question/solution/answer respectively. </li>
   </ul>
 
 ## Backstory
