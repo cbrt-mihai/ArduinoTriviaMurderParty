@@ -23,6 +23,7 @@
     <li> displayImage() shows an icon on the matrix. </li>
     <li> getScore() and getName() return the relevant information, respectively. </li>
     <li> putHighscore() overwrites the first lower score it finds with the current one, also overwriting the player name. </li>
+    <li> resetHighscore() resets all the highscores by overwriting them with name None and score 0. </li>
   </ul>
 
 ## Backstory
