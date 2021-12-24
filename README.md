@@ -3,7 +3,10 @@
 
 ## Architecture
 
-  <p> The code is split up in many functions, depending on the functionality. The main function is the one in loop(), that is the main engine of the code. It's made up of several states that change depending on what was selected on the LCD. The functions: writePlayer() and readPlayer() communicate with the EEPROM. </p>
+  <p> The code is split up in many functions, depending on the functionality. The main function is the one in loop(), that is the main engine of the code. It's made up of several states that change depending on what was selected on the LCD. Now I will explain the functions: </p>
+  <ul>
+    <li> writePlayer() and readPlayer() communicate with the EEPROM.</li>
+  </ul>
 
 ## Backstory
 
