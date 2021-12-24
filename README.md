@@ -12,6 +12,10 @@
     <li> generateQuestionIndex() generates a random index. </li>
     <li> generateQuestionData() generates a topicIndex and a questionIndex. </li>
     <li> getQuestion(), getSolution(), getAnswer{1/2/3/4}() return the question/solution/answer respectively. </li>
+    <li> menuFunctions() and questionFunctions() are in charge of displaying on the LCD the menu or information regarding the curent question, and in charge of reacting to user input in those two cases. </li>
+    <li> printHighscores() prints in the Serial monitor the top 3 scores from EEPROM. </li>
+    <li> scrollAbout() is used to scroll the text when needed. </li>
+    <li> menuDing(), correctAns() and incorrectAns() each play a different tone when called. </li>
   </ul>
 
 ## Backstory
